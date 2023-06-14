@@ -1,0 +1,38 @@
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    height:auto;
+}
+.navbar{
+    background-color: black;
+}
+
+li a {
+    color:whitesmoke !important;
+    font-size:15px;
+   
+}
+li a:hover{
+    color:black !important;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+
+.nav-link {
+    padding:20px;
+}
+
+@media (max-width:600px){
+    nav{
+        height:auto;
+    }
+    .nav-link {
+        padding:10px;
+    }
+}
